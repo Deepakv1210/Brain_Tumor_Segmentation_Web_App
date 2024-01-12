@@ -8,7 +8,7 @@ import tensorflow as tf
 from keras.models import model_from_json
 
 # Load the U-Net model
-def load_unet_model(model_path=r"E:\git_repos\Brain_Tum_segmentation\Segmentation_Unet.hdf5", json_path="E:\git_repos\Brain_Tum_segmentation\segmentation_model_best.json"):
+def load_unet_model(model_path="Segmentation_Unet.hdf5", json_path="segmentation_model_best.json"):
     with open(json_path, "r") as json_file:
         loaded_model_json = json_file.read()
         loaded_model = model_from_json(loaded_model_json)
