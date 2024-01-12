@@ -2,6 +2,7 @@ keras==2.10.0
 matplotlib==3.8.2
 numpy==1.26.3
 opencv_python
+opencv-python-headless
 pandas==2.1.4
 Pillow
 tensorflow==2.10.1
